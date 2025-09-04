@@ -1,0 +1,27 @@
+{
+  "name": "basic-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsx --test test/*.spec.ts",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otaviolemos/basic-chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otaviolemos/basic-chat/issues"
+  },
+  "homepage": "https://github.com/otaviolemos/basic-chat#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "husky": "^9.1.7",
+    "tsx": "^4.20.5"
+  }
+}
