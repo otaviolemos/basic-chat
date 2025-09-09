@@ -1,9 +1,10 @@
 name: Deploy to Heroku
 
 on:
-  push:
-    branches: [main, master]
-  workflow_dispatch: # Allow manual deployment
+  workflow_dispatch: # Manual deployment only
+  # Disabled automatic deployment since Heroku GitHub integration is being used
+  # push:
+  #   branches: [main, master]
 
 jobs:
   deploy:
